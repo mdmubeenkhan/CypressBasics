@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-01-19T06:29:42.352Z",
+    "end": "2020-01-19T06:30:03.741Z",
+    "duration": 21389,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6d2c0ae9-744e-465e-b68d-42d54f4e97d8",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2611337e-9399-48a6-8fd2-e1bcd2ef4a4c",
+          "title": "Test Suite1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case1",
+              "fullTitle": "Test Suite1 test case1",
+              "timedOut": null,
+              "duration": 13950,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('http://newtours.demoaut.com/');\ncy.get('[name=userName]').should('be.visible').should('be.enabled').clear().type('mercury');\ncy.get('[name=password]').should('be.visible').should('be.enabled').clear().type('mercury');\ncy.get('[name=login]').should('be.visible').should('be.enabled').click();",
+              "err": {},
+              "uuid": "7b6b767f-f7a4-452b-9597-99b64bd23b51",
+              "parentUUID": "2611337e-9399-48a6-8fd2-e1bcd2ef4a4c",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test case2",
+              "fullTitle": "Test Suite1 test case2",
+              "timedOut": null,
+              "duration": 90,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Test case 2\");",
+              "err": {},
+              "uuid": "a7407371-5647-400c-9eb0-b0d0e041a93a",
+              "parentUUID": "2611337e-9399-48a6-8fd2-e1bcd2ef4a4c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7b6b767f-f7a4-452b-9597-99b64bd23b51",
+            "a7407371-5647-400c-9eb0-b0d0e041a93a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14040,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}

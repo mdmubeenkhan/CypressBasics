@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-01-19T06:30:17.700Z",
+    "end": "2020-01-19T06:30:49.530Z",
+    "duration": 31830,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0d2d5fa0-1e7c-4633-afd3-435e7b1c1bbe",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5d20af3e-b09f-488c-b52f-637b35288354",
+          "title": "Test Suite1",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "test case1",
+              "fullTitle": "Test Suite1 test case1",
+              "timedOut": null,
+              "duration": 11547,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://orangehrm-demo-6x.orangehrmlive.com/');\ncy.get('#txtUsername').should('be.visible').should('be.enabled').clear().type('admin');\ncy.get('#txtPassword').should('be.visible').should('be.enabled').clear().type('admin123');\ncy.get('#btnLogin').should('be.visible').should('be.enabled').click();",
+              "err": {},
+              "uuid": "fcedb2a2-8de3-45b4-bef5-b468f7d082f4",
+              "parentUUID": "5d20af3e-b09f-488c-b52f-637b35288354",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test case2",
+              "fullTitle": "Test Suite1 test case2",
+              "timedOut": null,
+              "duration": 8338,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://orangehrm-demo-6x.orangehrmlive.com/');\ncy.get('#txtUsername').should('be.visible').should('be.enabled').clear().type('admin');\ncy.get('#txtPassword').should('be.visible').should('be.enabled').clear().type('admin123');\ncy.get('#btnLogin').should('be.visible').should('be.enabled').click();",
+              "err": {},
+              "uuid": "b96c9c4c-6521-4127-8dc7-53f7e01c70bf",
+              "parentUUID": "5d20af3e-b09f-488c-b52f-637b35288354",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test case3",
+              "fullTitle": "Test Suite1 test case3",
+              "timedOut": null,
+              "duration": 1803,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://orangehrm-demo-6x.orangehrmlive.com/');\ncy.get('#txtUsername').should('be.visible').should('be.enabled').clear().type('admin');\ncy.get('#txtPassword').should('be.visible').should('be.enabled').clear().type('admin123');",
+              "err": {},
+              "uuid": "0973c03e-ad0e-49bc-8ad0-6e9825544b47",
+              "parentUUID": "5d20af3e-b09f-488c-b52f-637b35288354",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "test case4",
+              "fullTitle": "Test Suite1 test case4",
+              "timedOut": null,
+              "duration": 27,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(\"Test case 4\");",
+              "err": {},
+              "uuid": "ba866afb-1246-4b3d-a518-7e0bbc3ae5ef",
+              "parentUUID": "5d20af3e-b09f-488c-b52f-637b35288354",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fcedb2a2-8de3-45b4-bef5-b468f7d082f4",
+            "b96c9c4c-6521-4127-8dc7-53f7e01c70bf",
+            "0973c03e-ad0e-49bc-8ad0-6e9825544b47",
+            "ba866afb-1246-4b3d-a518-7e0bbc3ae5ef"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 21715,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}
